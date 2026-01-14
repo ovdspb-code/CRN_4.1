@@ -1,0 +1,40 @@
+{
+  "N": 1000,
+  "topology": {
+    "type": "watts_strogatz",
+    "k_neighbors": 4,
+    "p_rewire": 0.3,
+    "seed": 42
+  },
+  "hamiltonian": {
+    "gamma": 1.0,
+    "potential_mode": "funnel_distance_to_target",
+    "V_scale": 2.0
+  },
+  "sink": {
+    "eta_base": 1.0,
+    "threshold": {
+      "I_th": 0.1,
+      "eta_high": 5.0,
+      "steepness": 200.0
+    }
+  },
+  "sweep": {
+    "kappa_min": 0.001,
+    "kappa_max": 10.0,
+    "n_points": 21,
+    "T": 2.0,
+    "dt": 0.02,
+    "n_traj": 3
+  },
+  "energy_regime": {
+    "E_comm": 1.0,
+    "P_tax": 1.0,
+    "tau_fix": 0.001,
+    "tau_trans": 0.0001,
+    "tau_reset_min": 1e-05,
+    "tau_reset_max": 0.1,
+    "tau_reset_points": 13
+  },
+  "random_seed_global": 42
+}

@@ -1,0 +1,80 @@
+{
+  "config": {
+    "N": 1000,
+    "topology": {
+      "type": "watts_strogatz",
+      "k_neighbors": 4,
+      "p_rewire": 0.3,
+      "seed": 42
+    },
+    "hamiltonian": {
+      "gamma": 1.0,
+      "potential_mode": "funnel_distance_to_target",
+      "V_scale": 2.0
+    },
+    "sink": {
+      "eta_base": 1.0,
+      "threshold": {
+        "I_th": 0.1,
+        "eta_high": 5.0,
+        "steepness": 200.0
+      }
+    },
+    "sweep": {
+      "kappa_min": 0.001,
+      "kappa_max": 10.0,
+      "n_points": 21,
+      "T": 2.0,
+      "dt": 0.02,
+      "n_traj": 3
+    },
+    "energy_regime": {
+      "E_comm": 1.0,
+      "P_tax": 1.0,
+      "tau_fix": 0.001,
+      "tau_trans": 0.0001,
+      "tau_reset_min": 1e-05,
+      "tau_reset_max": 0.1,
+      "tau_reset_points": 13
+    },
+    "random_seed_global": 42
+  },
+  "computed": {
+    "kappa_opt_linear": 1.0,
+    "P_success_max_linear": 0.22454800534055486,
+    "P_success_min_linear": 0.07352212522892394,
+    "fwhm_definition": "threshold = min + 0.5*(max-min)",
+    "fwhm_threshold_value": 0.14903506528473942,
+    "fwhm_kappa_lo": 0.09999999999999999,
+    "fwhm_kappa_hi": 3.9810717055349736,
+    "fwhm_width_decades": 1.6,
+    "trigger_marker_definition": "eta(t) >= eta0 + 0.25*(eta_high-eta0) in a representative trajectory",
+    "trigger_time_marker": 0.44,
+    "dt": 0.02,
+    "T": 2.0,
+    "n_traj": 3,
+    "kappa_grid": [
+      0.001,
+      0.001584893192461114,
+      0.0025118864315095794,
+      0.003981071705534973,
+      0.006309573444801929,
+      0.01,
+      0.01584893192461114,
+      0.025118864315095808,
+      0.039810717055349734,
+      0.06309573444801933,
+      0.09999999999999999,
+      0.1584893192461114,
+      0.25118864315095824,
+      0.3981071705534973,
+      0.6309573444801936,
+      1.0,
+      1.584893192461114,
+      2.511886431509582,
+      3.9810717055349736,
+      6.309573444801936,
+      10.0
+    ]
+  }
+}

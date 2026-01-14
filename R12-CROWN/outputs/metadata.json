@@ -1,0 +1,18 @@
+{
+  "N": 8,
+  "topology": "chain",
+  "gamma": 2.0,
+  "eta": 0.8,
+  "kappa_list_n": 21,
+  "kappa_opt": 0.3981071705534973,
+  "W_kappa_dec": 1.8,
+  "overlay_kappa_list_n": 17,
+  "overlay_topologies": [
+    "chain",
+    "watts_strogatz",
+    "modular"
+  ],
+  "nonlin_drop": 0.0,
+  "p_tax_ratio_at_10ms": 0.0111,
+  "red_line_status_at_10ms": "Marginal (advantage persists, but small; requires Q3/Q4 tightening)"
+}
