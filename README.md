@@ -1,5 +1,7 @@
 # CRN — Supplementary Simulation Artifacts (R12-CROWN)
 
+# Note: This software package is internally versioned as 'R12-CROWN'. In the associated manuscript, it is referred to as 'CRN_Sim'.
+
 This repository contains a fully reproducible simulation suite, figure-generation scripts, and precomputed numerical
 artifacts supporting the accompanying CRN manuscript:
 
