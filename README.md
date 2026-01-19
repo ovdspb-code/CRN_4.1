@@ -1,17 +1,19 @@
-# CRN — Supplementary Simulation Artifacts (R12-CROWN)
+# CRN — Supplementary Simulation Artifacts 
 
-# Note: This software package is internally versioned as 'R12-CROWN'. In the associated manuscript, it is referred to as 'CRN_Sim'.
+> **Note:** This software package is internally versioned as **'R12-CROWN'**. In the associated manuscript and documentation, it is referred to as **'CRN_Sim'**.
 
 This repository contains a fully reproducible simulation suite, figure-generation scripts, and precomputed numerical
 artifacts supporting the accompanying CRN manuscript:
 
-“Thermodynamic Advantage of Transient Coherent Dynamics in Hierarchical Decision Architectures: Coherent Resonant Netting”.
+“Thermodynamic Advantage of Transient Wave Dynamics in Hierarchical Decision Architectures. Coherent Resonant Netting (CRN) via an Open-System Formalism”.
 
 Included:
 
 - **R12-CROWN/** — main simulation suite (code + plotting scripts + precomputed outputs)
 - **R12-CROWN-LargeN-N1000/** — large‑N stress test (code + precomputed outputs)
 - **artifacts/** — convenience mirror of precomputed outputs (figures/CSVs/metadata in one place)
+
+*⚠️ Please do not rename the folders. The provided scripts rely on these specific path names for imports and data loading.*
 
 Precomputed artifacts include:
 
