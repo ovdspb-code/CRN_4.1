@@ -5,9 +5,8 @@ type: software
 authors:
   - family-names: "Dolgikh"
     given-names: "Oleg"
- 
-version: "1.0"
-doi: 10.5281/zenodo.18248773
-date-released: "2026-01-14"
+
+version: "1.0.1"
+doi: 10.5281/zenodo.18338260
 url: "https://github.com/ovdspb-code/CRN_4.1"
 license: "MIT"

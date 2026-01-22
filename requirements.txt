@@ -1,7 +1,11 @@
-numpy
-pandas
-matplotlib
-scipy
-seaborn
-networkx
-tqdm
+# CRN_Sim (R12-CROWN) — minimal runtime dependencies
+#
+# Notes for macOS users:
+# - If pip tries to *build* SciPy from source (very slow + often fails),
+#   use Python 3.10/3.11 (wheels available) or use conda/mamba.
+
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+pyyaml>=6.0

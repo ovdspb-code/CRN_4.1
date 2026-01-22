@@ -1,4 +1,6 @@
+# Minimal dependencies for the R12-CROWN suite
 numpy>=1.24
 scipy>=1.10
 pandas>=2.0
 matplotlib>=3.7
+pyyaml>=6.0
