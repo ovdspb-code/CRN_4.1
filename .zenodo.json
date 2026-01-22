@@ -1,0 +1,22 @@
+{
+  "title": "CRN_Sim (R12-CROWN): Supplementary simulation suite and artifacts for CRN",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0",
+  "creators": [
+    {
+      "name": "Dolgikh, Oleg",
+      "type": "ProjectMember"
+    }
+  ],
+  "keywords": [
+    "computational neuroscience",
+    "open quantum systems",
+    "Lindblad",
+    "GKSL",
+    "decision-making",
+    "resonance"
+  ],
+  "description": "Reproducible simulation suite and precomputed artifacts supporting the CRN manuscript. Contains R12-CROWN main suite, LargeN stress test, and consolidated artifacts mirror."
+}

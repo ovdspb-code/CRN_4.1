@@ -1,5 +1,10 @@
 # CRN — Supplementary Simulation Artifacts 
 
+## How to cite / DOI
+
+This repository is archived on Zenodo. Use the Zenodo Concept DOI to cite the evolving software record (it always resolves to the latest version).
+For strict reproducibility, cite the specific Zenodo version DOI shown on the record page for the release you used.
+
 > **Note:** This software package is internally versioned as **'R12-CROWN'**. In the associated manuscript and documentation, it is referred to as **'CRN_Sim'**.
 
 This repository contains a fully reproducible simulation suite, figure-generation scripts, and precomputed numerical
