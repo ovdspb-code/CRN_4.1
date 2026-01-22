@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+title: "CRN_Sim (R12-CROWN): Supplementary simulation suite and artifacts for the CRN manuscript"
+type: software
+authors:
+  - family-names: "Dolgikh"
+    given-names: "Oleg"
+ 
+version: "1.0"
+doi: 10.5281/zenodo.18248773
+date-released: "2026-01-14"
+url: "https://github.com/ovdspb-code/CRN_4.1"
+license: "MIT"
