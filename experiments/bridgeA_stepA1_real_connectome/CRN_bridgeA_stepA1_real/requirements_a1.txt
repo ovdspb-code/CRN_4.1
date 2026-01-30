@@ -1,0 +1,4 @@
+networkx>=2.8
+numpy>=1.23
+matplotlib>=3.6
+zstandard>=0.21  # only needed if using *.zst

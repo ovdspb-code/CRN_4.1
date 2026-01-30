@@ -1,0 +1,27 @@
+{
+  "inputs": {
+    "A7_gksl_sweep.csv": "/Users/ovd/Documents/СRN/DROSOF/REAL/A7_outputs/A7_gksl_sweep.csv",
+    "A7_baselines.csv": "/Users/ovd/Documents/СRN/DROSOF/REAL/A7_outputs/A7_baselines.csv",
+    "A7_meta.json": "/Users/ovd/Documents/СRN/DROSOF/REAL/A7_outputs/A7_meta.json"
+  },
+  "settings": {
+    "lambda_grid": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "chi_grid": [
+      0.001,
+      0.01,
+      0.05
+    ],
+    "pT_min": 0.005,
+    "baseline_T_envs": [
+      "0.1",
+      "1.0"
+    ]
+  },
+  "outputs": {
+    "A8_objective_sweep.csv": "/Users/ovd/Documents/СRN/DROSOF/REAL/A8_OUT/A8_objective_sweep.csv"
+  }
+}

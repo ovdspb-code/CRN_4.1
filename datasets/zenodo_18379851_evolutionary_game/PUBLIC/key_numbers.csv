@@ -1,0 +1,17 @@
+block,condition,metric,value
+Step2_cortex,T_env=0.1,recall_mean,0.4797312839019698
+Step2_cortex,T_env=0.1,leakage_mean,0.3997764798165227
+Step2_cortex,T_env=0.1,selectivity_ratio_of_means,1.1999987696178185
+Step2_cortex,T_env=1.0,recall_mean,0.2751109902575493
+Step2_cortex,T_env=1.0,leakage_mean,0.6573895103114096
+Step2_cortex,T_env=1.0,selectivity_ratio_of_means,0.4184900822759211
+Step2_cortex,T_env=inf,recall_mean,0.2666666666666655
+Step2_cortex,T_env=inf,leakage_mean,0.6666666666666639
+Step2_cortex,T_env=inf,selectivity_ratio_of_means,0.3999999999999999
+Step3_tradeoff,transport,noise_at_max_transport_norm,0.5
+Step3_tradeoff,transport,max_transport_norm,0.994690213342012
+Step3_tradeoff,memory,noise_at_max_memory_frac,0.01
+Step3_tradeoff,memory,max_memory_frac,0.6787101733627088
+Step4_selection,p_transport=0.5,max_cost_step4_default,0.19
+Step5_robustness,p_transport=0.5,max_cost_consensus_ge0.8,0.16
+Step5_robustness,p_transport=0.5,max_cost_consensus_all,0.16

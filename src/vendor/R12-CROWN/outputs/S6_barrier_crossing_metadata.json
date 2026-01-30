@@ -1,0 +1,23 @@
+{
+  "N": 10,
+  "gamma": 1.0,
+  "eta": 1.0,
+  "kappa_opt": 1.0,
+  "kappa_low": 0.01,
+  "T_classical": 1.0,
+  "V": [
+    0.0,
+    0.0,
+    0.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "T_max": 80.0,
+  "dt": 0.5,
+  "notes": "Illustrative chain barrier scenario; classical baseline uses Arrhenius/Metropolis-like uphill suppression."
+}

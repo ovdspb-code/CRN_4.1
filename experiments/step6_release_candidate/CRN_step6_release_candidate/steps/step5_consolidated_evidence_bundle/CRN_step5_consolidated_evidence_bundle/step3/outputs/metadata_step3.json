@@ -1,0 +1,59 @@
+{
+  "generated_utc": "2026-01-26T15:58:14Z",
+  "step": 3,
+  "purpose": "Architecture-level trade-off: transport (CRN GKSL) vs recurrent-memory confinement (thermal barriers)",
+  "memory_module": {
+    "model": "continuous-time Markov transport proxy on SBM (3 assemblies)",
+    "N": 150,
+    "cluster_sizes": [
+      50,
+      50,
+      50
+    ],
+    "p_in": 0.3,
+    "p_out": 0.02,
+    "epsilon": 3.0,
+    "t_end": 100.0,
+    "n_trials": 20,
+    "seed": 1,
+    "T_env_grid": [
+      0.01,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0,
+      Infinity
+    ],
+    "metrics": [
+      "recall",
+      "leakage",
+      "selectivity_ratio",
+      "recall_frac",
+      "recall_minus_leakage"
+    ]
+  },
+  "transport_module": {
+    "source": "R12-CROWN outputs: gap_sweep.csv (copied into transport_gap_sweep.csv)",
+    "metric": "Liouvillian gap g(kappa) as proxy for relaxation/transport efficiency"
+  },
+  "fitness_demo": {
+    "definition": "fitness_global(noise)=w_T*transport_norm(noise)+w_M*memory_frac(noise)",
+    "w_T": 0.5,
+    "w_M": 0.5,
+    "best_global_noise": 0.2,
+    "best_global_fitness": 0.6442914739298777,
+    "modular_transport_noise": 0.5,
+    "modular_memory_noise": 0.01,
+    "modular_fitness": 0.9946902133420119,
+    "modular_gain_over_best_global": 1.5438512747574715
+  },
+  "limitations": [
+    "Memory module is linear transport proxy (no nonlinear attractor stabilization or inhibition dynamics).",
+    "Transport and memory 'noise knobs' are treated as a common axis for the global-vs-modular illustration; in reality, kappa and T_env are different physical controls.",
+    "Fitness function is illustrative (weighted sum), not a calibrated evolutionary model."
+  ]
+}

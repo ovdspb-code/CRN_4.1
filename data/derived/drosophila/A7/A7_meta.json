@@ -1,0 +1,44 @@
+{
+  "mode": "extended",
+  "config": "/Users/ovd/Documents/СRN/DROSOF/REAL/A2_outputs/bench_config_extended.json",
+  "graphml": "/Users/ovd/Documents/СRN/DROSOF/REAL/A1_outputs/extended/graph.graphml",
+  "active_subgraph": {
+    "N_nodes": 243,
+    "N_edges": 1765
+  },
+  "sim": {
+    "gamma": 1.0,
+    "eta_sink": 1.0,
+    "T_max": 10.0,
+    "kappa_grid": [
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0,
+      10.0
+    ]
+  },
+  "disorder": {
+    "kind": "diagonal_uniform",
+    "epsilons": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      5.0
+    ],
+    "n_trials": 10,
+    "base_seed": 42
+  },
+  "thermal": {
+    "T_envs": [
+      0.1,
+      1.0
+    ],
+    "metropolis": true
+  }
+}

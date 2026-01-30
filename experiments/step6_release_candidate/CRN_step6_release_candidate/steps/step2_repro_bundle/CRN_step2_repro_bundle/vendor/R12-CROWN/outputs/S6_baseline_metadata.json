@@ -1,0 +1,19 @@
+{
+  "figure": "S6_baseline_comparison",
+  "topology": "lollipop",
+  "topology_kwargs": {
+    "ring_size": 6
+  },
+  "N": 10,
+  "gamma": 2.0,
+  "eta": 1.0,
+  "t_max": 20.0,
+  "n_t": 400,
+  "kappa_low": 0.0,
+  "kappa_opt": 1.0,
+  "kappa_high": 10.0,
+  "kappa_opt_determination": "argmax spectral gap g(kappa) over logspace(-3,2,21)",
+  "initial_node": 0,
+  "target_node": 9,
+  "notes": "CRW uses continuous-time random walk with Laplacian generator and explicit absorbing sink; CRN uses GKSL with node-local dephasing and the same sink rate."
+}

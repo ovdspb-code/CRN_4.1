@@ -1,0 +1,53 @@
+{
+  "n_nodes": 24,
+  "n_edges": 41,
+  "density": 0.14855072463768115,
+  "n_components": 1,
+  "largest_component_size": 24,
+  "diameter": 7,
+  "avg_shortest_path": 2.9420289855072466,
+  "avg_clustering": 0.3621031746031746,
+  "small_world": {
+    "C": 0.3621031746031746,
+    "L": 2.9420289855072466,
+    "C_rand": 0.13401175814736824,
+    "L_rand": 2.5438332424780468,
+    "sigma": 2.336313500652953,
+    "n_random": 200
+  },
+  "depth": {
+    "n_pairs": 18,
+    "n_reachable": 18,
+    "n_unreachable": 0,
+    "mean_edges": 3.0,
+    "median_edges": 3.0,
+    "std_edges": 0.9074852129730301,
+    "min_edges": 2,
+    "max_edges": 5,
+    "q10_edges": 2.0,
+    "q25_edges": 2.25,
+    "q75_edges": 3.0,
+    "q90_edges": 4.300000000000001,
+    "mean_nodes": 4.0,
+    "distances_edges": [
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      5,
+      3,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      4,
+      3,
+      5
+    ]
+  }
+}

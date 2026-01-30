@@ -1,0 +1,21 @@
+{
+  "inputs": {
+    "A7_gksl_sweep.csv": "/mnt/data/A7_outputs_for_A8_1/A7_gksl_sweep.csv",
+    "A7_baselines.csv": "/mnt/data/A7_outputs_for_A8_1/A7_baselines.csv",
+    "A7_meta.json": "/mnt/data/A7_outputs_for_A8_1/A7_meta.json"
+  },
+  "settings": {
+    "lambda": 1.0,
+    "chi": 0.01,
+    "pT_min": 0.005,
+    "baseline_T_env": 0.1,
+    "n_boot": 5000,
+    "seed": 0
+  },
+  "outputs": {
+    "A8_gksl_curve_stats.csv": "/mnt/data/A8_1_OUT_n5000/A8_gksl_curve_stats.csv",
+    "A8_baseline_stats.csv": "/mnt/data/A8_1_OUT_n5000/A8_baseline_stats.csv",
+    "A8_best_by_objective_bootstrap.csv": "/mnt/data/A8_1_OUT_n5000/A8_best_by_objective_bootstrap.csv",
+    "A8_effects_vs_thermal.csv": "/mnt/data/A8_1_OUT_n5000/A8_effects_vs_thermal.csv"
+  }
+}

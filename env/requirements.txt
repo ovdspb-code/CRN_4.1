@@ -1,0 +1,6 @@
+# CRN reproducibility (core)
+numpy>=1.24
+scipy>=1.10
+pandas>=1.5
+matplotlib>=3.7
+networkx>=2.8

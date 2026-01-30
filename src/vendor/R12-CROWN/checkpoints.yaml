@@ -1,0 +1,15 @@
+release: QRN Release 4.0 (R12-CROWN)
+generated: '2026-01-13'
+checkpoints:
+- id: Q3-Check
+  metric: Energy Tax Ratio (E_tax/E_comm)
+  comparator: <
+  threshold: 0.1
+- id: P1-Robust
+  metric: Window Width W_kappa (dec)
+  comparator: '>'
+  threshold: 0.5
+- id: R5-Sink
+  metric: Threshold Sink Drop (rel)
+  comparator: <
+  threshold: 0.3

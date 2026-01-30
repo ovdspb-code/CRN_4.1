@@ -1,0 +1,4 @@
+ID,Metric,Bound,Value,Status
+Q3-Check,Energy Tax Ratio (E_tax/E_comm),< 0.1,0.011,PASS
+P1-Robust,Window Width W_kappa (dec),> 0.5,1.80,PASS
+R5-Sink,Threshold Sink Drop (rel),< 0.3,0.000,PASS

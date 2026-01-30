@@ -1,0 +1,18 @@
+FCN Scope Statement (submission form) — PLACEHOLDER
+
+[Edit the bracketed parts before submission.]
+
+We submit “Thermodynamic Advantage of Transient Wave Dynamics in Hierarchical Decision Architectures” as a Hypothesis and Theory article to Frontiers in Computational Neuroscience.
+
+Scope fit:
+- The work proposes a mechanistic, falsifiable hypothesis about decision-making under metabolic constraints: a two-stage architecture in which Stage-I performs low-amplitude wave-like exploration on the connectome (modeled via an open-system proxy), followed by Stage-II spiking fixation.
+- We provide computational evidence across connectome scales and explicit negative controls (rewiring, lesions, classical baselines), producing a topology×coherence signature and a stress-like inverted-U (DES) that is testable in vivo.
+- The contribution is computational neuroscience: network dynamics, inference under constraints, and experimentally actionable predictions (temperature/anesthesia scans, topology perturbations).
+
+What this is NOT:
+- We do not claim microscopic quantum coherence in neural tissue; GKSL/Lindblad dynamics is used as a functional proxy for any transient wave-like substrate with tunable dephasing.
+
+Keywords for editors:
+open-system dynamics; Lindblad master equation; connectome; noise-assisted transport; metabolic constraints; decision-making; inverted-U; evolutionary game theory.
+
+[OPTIONAL: add 1–2 sentences linking the manuscript to specific FCN topics/specialties or recent FCN papers.]

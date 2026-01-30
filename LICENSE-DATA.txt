@@ -1,0 +1,11 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This repository contains *derived* tables/figures produced by the CRN simulation
+pipelines. Unless stated otherwise, these derived artifacts are intended to be
+shared under CC BY 4.0.
+
+IMPORTANT: third‑party datasets (connectomes, supplementary data from external
+papers) remain under their original licenses/terms and are NOT relicensed by
+this file. See data/THIRD_PARTY_DATA.md.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
