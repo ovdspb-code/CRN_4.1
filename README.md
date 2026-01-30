@@ -1,5 +1,5 @@
 # CRN (Coherent Resonant Netting) — reproducibility repository
-softvare DOI: 10.5281/zenodo.18338260
+software DOI: 10.5281/zenodo.18338260
 This repository packages code + numeric backends (CSV) + figure assets used in the CRN core paper and Supplementary Materials.
 
 Key principle: **GKSL/Lindblad open‑system dynamics is used here as a mechanistic proxy** for *transient wave‑like exploration* under dephasing/measurement. This does **not** require (and does not claim) microscopic quantum computation in neurons.
