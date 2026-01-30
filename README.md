@@ -1,6 +1,29 @@
 # CRN (Coherent Resonant Netting) — reproducibility repository
 software DOI: 10.5281/zenodo.18338260
-This repository packages code + numeric backends (CSV) + figure assets used in the CRN core paper and Supplementary Materials.
+## Repository structure (quick map)
+
+This repository is the canonical reproducibility hub for CRN-related studies
+submitted to Frontiers in Computational Neuroscience.
+
+Main experimental blocks:
+
+- `experiments/drosophila/`
+  CRN simulations on the Drosophila larva connectome (primary benchmark).
+
+- `experiments/elegans_touch_circuit/`
+  CRN simulations on a C. elegans touch-withdrawal subcircuit
+  (ALM/AVM/PLM → interneurons → motor outputs).
+
+- `experiments/mouse_proxy/`
+  CRN simulations on a mouse cortical proxy graph
+  (hierarchical stochastic block model).
+
+- `datasets/zenodo_18379850_evolutionary_game/`
+  Companion evolutionary game-theory dataset
+  (Zenodo DOI: 10.5281/zenodo.18379850).
+
+See `DATA_AVAILABILITY_TEMPLATE.md` for a formal mapping between code, data,
+and Zenodo records.
 
 Key principle: **GKSL/Lindblad open‑system dynamics is used here as a mechanistic proxy** for *transient wave‑like exploration* under dephasing/measurement. This does **not** require (and does not claim) microscopic quantum computation in neurons.
 
