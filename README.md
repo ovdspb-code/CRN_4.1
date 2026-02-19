@@ -14,6 +14,9 @@ Datasets:
 
 - Mouse cortical proxy simulation artifacts (step2–step6 release candidate):
   https://doi.org/10.5281/zenodo.18433186
+
+- Drosophila larva MB benchmark: 
+  https://doi.org/10.5281/zenodo.18697116
 ## Repository structure (quick map)
 
 This repository is the canonical reproducibility hub for CRN-related studies
