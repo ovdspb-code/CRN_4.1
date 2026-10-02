@@ -4,7 +4,8 @@ title: "Thermodynamic Advantage of Transient Wave Dynamics in Hierarchical Decis
 authors:
   - family-names: "Dolgikh"
     given-names: "Oleg"
+    orcid: "https://orcid.org/0009-0008-0159-1718"
 version: "v9"
 date-released: "2026-01-30"
 license: "MIT"
-repository-code: "https://github.com/<username>/<repo>"
+repository-code: "https://github.com/ovdspb-code/CRN_4.1"

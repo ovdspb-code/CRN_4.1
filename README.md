@@ -19,8 +19,14 @@ Datasets:
   https://doi.org/10.5281/zenodo.18697116
 ## Repository structure (quick map)
 
-This repository is the canonical reproducibility hub for CRN-related studies
-submitted to Frontiers in Computational Neuroscience.
+This repository is a reproducibility hub for CRN-related studies.
+
+## Related peer-reviewed publication
+
+Oleg Dolgikh (2026). *Coherent-resonant netting: disorder-enhanced selectivity from transient wave-like dynamics on biological connectomes*. Frontiers in Computational Neuroscience.
+https://doi.org/10.3389/fncom.2026.1813959
+
+The software and datasets above have their own Zenodo records. This repository contains materials from several CRN studies; consult the article and individual release records for the corresponding methods and data.
 
 Main experimental blocks:
 
